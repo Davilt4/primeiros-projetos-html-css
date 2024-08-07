@@ -1,0 +1,198 @@
+@import url(global.css);
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.wrapperContainer-dark{
+    background-color: #1A2130;
+    
+}
+
+.wrapperContainer-hero{
+    background-color: #263046;
+}
+
+.wrapperContainer-light{
+    background-color: #d2d2d2;
+}
+
+.wrapperContainer-dark2{
+    background-color: #1A2130;
+}
+
+
+
+/* HEADER */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0px;
+    border-bottom: 1px solid #FAFAFA;
+}
+
+.logo{
+    font-size: 30px;
+    color: #FDFFE2;
+}
+
+.header_nav ul{ 
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header_nav a{
+    color: #FAFAFA;
+}
+
+.header_nav ul a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* HERO BANNER */
+
+.hero-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    min-height: 600px;
+}
+
+.hero-banner_content h1{
+    font-size: 48px;
+    color: #ebebeb;
+}
+
+.hero-banner_img{
+    width: 500px;
+}
+
+.hero-banner_content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #2b70ba;
+    padding: 12px;
+    border-radius: 4px;
+    color: #1A2130;
+}
+
+
+.hero-banner_content .btn:hover{
+    background-color: #4373a7;
+}
+
+
+/* CURSOS */
+
+.cursosContainer{
+    display: flex;
+    margin-bottom:50px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cursos-card{
+    max-width: 290px;
+    border: 1px solid #6c6c6c;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    text-align: left;
+    flex: 1;
+    
+}
+
+.cursos-card_content{
+    padding: 4px  4px 4px 4px;
+    text-align: center;
+}
+
+.cursos-card_content p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.cursos-card img{
+    height: 180px;
+    width: 290px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.cursos h2{
+    color: rgb(59, 59, 59);
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    border-bottom: 2px solid #4373a7;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+.cursos h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.cursos{
+    text-align: center;
+}
+
+
+.cursos .btn{
+    display: inline-block;
+    background-color: #2b70ba;
+    padding: 12px;
+    border-radius: 4px;
+    color: #1A2130;
+    margin-bottom: 20px;
+}
+
+
+/* Escola */
+
+.escola img{
+    width: 500px;
+}
+
+.escola h2{
+    color: #ebebeb;
+    font-size: 24px;
+}
+
+.escola p {
+    color: #ebebeb;
+    font-size: 18px;
+}
+
+.escola{
+    display: flex;
+    align-items: center;
+    padding:100px 0px;
+    gap: 20px;
+}
+
+/* contatos */
+.contatos{
+    text-align: center;
+}
+
+.contatos address{
+    text-align: right;
+}
+
+.contatos iframe{
+    padding:40px 0px;
+}
+
+footer{
+    color: #ebebeb;
+    text-align: center;
+    padding: 20px;
+}
